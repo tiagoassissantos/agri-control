@@ -14,7 +14,7 @@ export default class Producer extends BaseModel {
   declare updatedAt: DateTime
 
   @column()
-  declare cpfOrCnpj: string
+  declare cpfCnpj: string
 
   @column()
   declare name: string

@@ -17,4 +17,4 @@ router.get('/', async () => {
   }
 })
 
-router.get('/states', [StatesController, 'index']);
+router.get('/states', [StatesController, 'index'])
