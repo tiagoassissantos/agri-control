@@ -20,6 +20,7 @@ const bodyParserConfig = defineConfig({
    * Config for the JSON parser
    */
   json: {
+    encoding: 'utf-8',
     convertEmptyStringsToNull: true,
     types: [
       'application/json',
